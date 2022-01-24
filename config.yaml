@@ -1,6 +1,6 @@
 database:
   type: "mysql"
-  host: "127.0.0.1"
+  host: "192.168.99.103"
   port: 3306
   user: "root"
   password: "root"
@@ -8,9 +8,9 @@ database:
   tablePrefix: ""
 
 redis:
-  host: "127.0.0.1:6379"
+  host: "192.168.99.103:6379"
   db: 8
-  password: "gelu8888"
+  password: "103redis"
   maxIdle: 20
   maxActive: 10
   idleTimeout: 5000000000
